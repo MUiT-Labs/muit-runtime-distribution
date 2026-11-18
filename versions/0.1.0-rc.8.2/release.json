@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "release": "0.1.0-rc.8.2",
+  "runtime": "0.1.0",
+  "protocol": "muit.feed.v1",
+  "api": "/api/v1",
+  "source_commit": "95aab60b7997e97593d9af2f31e44e6c67b9177f",
+  "source_dirty": false,
+  "source_tree_sha256": "3a10bd699274adf0c7b1f082c3dcf97638be623fdd1cf5dd6912d77a5986f667",
+  "created_at": "2026-11-18T10:19:29.731597Z",
+  "collector_migrations": [
+    {
+      "name": "000001_initial.sql",
+      "sha256": "5f144fec6ec8567e578ede3b505426b810d513efc13e0f322a197a945bc705e5"
+    },
+    {
+      "name": "000002_delivery.sql",
+      "sha256": "552e77e0f015d442230973e51a14e582c41f69662ef25e8f66a74b0be679a989"
+    },
+    {
+      "name": "000003_management_bindings.sql",
+      "sha256": "001893f9a8ff1b2b9fe6633fade2c1d396e00be4949583b84346ba2349718720"
+    }
+  ],
+  "receiver_migration": {
+    "name": "000001_initial.sql",
+    "sha256": "14d777eb8a945b1d0579c24acf06ee2cd4c9e11c955195419216beaf6cc74c7b"
+  },
+  "assets": [
+    {
+      "component": "collector",
+      "os": "windows",
+      "arch": "amd64",
+      "file": "muit-collector_0.1.0-rc.8.2_windows_amd64.zip",
+      "size": 13022279,
+      "sha256": "b1fd19f935594ecf8175637241699bd71bccc01cb51a0f5fc279fe9faf3a9f70"
+    },
+    {
+      "component": "receiver",
+      "os": "windows",
+      "arch": "amd64",
+      "file": "muit-receiver_0.1.0-rc.8.2_windows_amd64.zip",
+      "size": 12664949,
+      "sha256": "4fbc2b12520ac570fc9b62b6d8d958cf372bf668bb10255e46806affa172ab24"
+    },
+    {
+      "component": "tools",
+      "os": "windows",
+      "arch": "amd64",
+      "file": "muit-tools_0.1.0-rc.8.2_windows_amd64.zip",
+      "size": 5923662,
+      "sha256": "b2250a229801466c28e4e89dbf42923efde7e736096c5da96ddfc4ecd82480f4"
+    },
+    {
+      "component": "collector",
+      "os": "linux",
+      "arch": "amd64",
+      "file": "muit-collector_0.1.0-rc.8.2_linux_amd64.tar.gz",
+      "size": 12564308,
+      "sha256": "fa246cd96df8380cb63aece60a50850b1fe7e6fab97322ae0b6cc71d4b2bd216"
+    },
+    {
+      "component": "receiver",
+      "os": "linux",
+      "arch": "amd64",
+      "file": "muit-receiver_0.1.0-rc.8.2_linux_amd64.tar.gz",
+      "size": 12242187,
+      "sha256": "9820b4fe36e1fa0e0c252942ecb6c56b04c3f1ccfd85e68e4cf360788ad42c0c"
+    },
+    {
+      "component": "tools",
+      "os": "linux",
+      "arch": "amd64",
+      "file": "muit-tools_0.1.0-rc.8.2_linux_amd64.tar.gz",
+      "size": 5696139,
+      "sha256": "495dc897f20e28d347bb5a229446f64236a4b67a53ff8130469d3273953aa9a4"
+    },
+    {
+      "component": "web",
+      "os": "any",
+      "arch": "any",
+      "file": "muit-web_0.1.0-rc.8.2_any_any.tar.gz",
+      "size": 152975,
+      "sha256": "608986d4848517982edfb265acaaa65aded1eba7f36c0bdf795ea30af1a472fc"
+    }
+  ],
+  "bootstraps": [
+    {
+      "component": "tools",
+      "os": "windows",
+      "arch": "amd64",
+      "file": "muit-install_windows_amd64.exe",
+      "size": 15803392,
+      "sha256": "484616343ca1cec49356c4bc316683853c22bbd4868f5956cec5fb086c6497fc"
+    },
+    {
+      "component": "tools",
+      "os": "linux",
+      "arch": "amd64",
+      "file": "muit-install_linux_amd64",
+      "size": 15310696,
+      "sha256": "977d2770f30d909456d209c5ea0d7a3ac0878e5fd91a6a643d70df756f055c07"
+    },
+    {
+      "component": "tools",
+      "os": "any",
+      "arch": "any",
+      "file": "download.py",
+      "size": 13597,
+      "sha256": "ecfb7ea4c8f603f88c436f54476c7b6976120b12fb5aef18ea7d360259cce412"
+    },
+    {
+      "component": "tools",
+      "os": "any",
+      "arch": "any",
+      "file": "download.sh",
+      "size": 198,
+      "sha256": "39f73b8be118f3ce89890032e1dc14fa2fd033dae6ee949505a1004ef098bd9f"
+    },
+    {
+      "component": "tools",
+      "os": "any",
+      "arch": "any",
+      "file": "download.ps1",
+      "size": 288,
+      "sha256": "408c209e4dd56f1bd69d9815c8ea984c593393f7da30c3dd4a1d57d6469e202e"
+    }
+  ]
+}

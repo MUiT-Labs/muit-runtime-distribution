@@ -1,0 +1,50 @@
+{
+  "scope": "LOCAL VALIDATION ONLY; no production/physical-device acceptance claim",
+  "release": "0.1.0-rc.8.2",
+  "source_commit": "95aab60b7997e97593d9af2f31e44e6c67b9177f",
+  "go_test_actions_including_subtests": {
+    "pass": 143,
+    "skip": 5
+  },
+  "go_packages": {
+    "skip": 13,
+    "pass": 19
+  },
+  "windows_package": "PASS",
+  "debian_package": "PASS",
+  "linux_actual_market_delivery": {
+    "source": "Binance Spot BTCUSDT@trade",
+    "events": 5,
+    "batches": 2,
+    "last_contiguous_batch_sequence": 2
+  },
+  "download_verification": "PASS",
+  "npm_vulnerabilities": {
+    "production": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "full_development_chain": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 7,
+      "critical": 0,
+      "total": 7
+    }
+  },
+  "not_tested": [
+    "Real VPS/165H install and system boot",
+    "Active systemd protection/resource enforcement",
+    "NetBird/5Mbps WAN",
+    "72-hour soak",
+    "Windows Service and interactive Ctrl+C",
+    "ARM64/other platforms",
+    "Target-disk disaster recovery",
+    "Release signing key encrypted offsite backup/recovery"
+  ]
+}

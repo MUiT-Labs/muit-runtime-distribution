@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "release": "0.1.0-rc.8.2",
+  "channel": "prerelease",
+  "runtime": "0.1.0",
+  "protocol": "muit.feed.v1",
+  "api": "/api/v1",
+  "migration_policy": "exact identical collector/receiver migration history only; no automatic schema rollback",
+  "platforms": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "baseline": "Debian 12+, system glibc >= 2.36, ca-certificates; systemd units provided",
+      "verified": "isolated non-root Debian container; static unit validation",
+      "system_boot": "NOT TESTED"
+    },
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "baseline": "portable foreground mode; no Windows Service installer",
+      "verified": "local Windows development host",
+      "interactive_ctrl_c": "NOT TESTED"
+    }
+  ],
+  "arm64_other_platforms": "NOT TESTED; no artifacts",
+  "receiver_database": "separately provisioned PostgreSQL 17; compatible pg_dump/restore clients for complete snapshots",
+  "signing_key_id": "7644ee621f5fb4e9443c47bcb42ce7e9800826bbc015cc864667a8a9d84f759e"
+}

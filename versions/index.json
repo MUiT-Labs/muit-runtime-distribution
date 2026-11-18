@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "releases": [
+    {
+      "version": "0.1.0-rc.8.2",
+      "channel": "prerelease",
+      "tag": "v0.1.0-rc.8.2",
+      "withdrawn": false,
+      "manifest": "0.1.0-rc.8.2/release.json",
+      "compatibility": "0.1.0-rc.8.2/compatibility.json"
+    }
+  ]
+}

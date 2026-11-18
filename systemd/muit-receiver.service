@@ -1,0 +1,49 @@
+[Unit]
+Description=MUiT Feed Receiver
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=muit-receiver
+Group=muit-receiver
+SupplementaryGroups=muit-runtime
+WorkingDirectory=/var/lib/muit/receiver
+ExecStartPre=/opt/muit/bin/muit-install check --root / --components receiver
+ExecStart=/opt/muit/bin/muit-install run --root / --components receiver
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=40
+KillMode=mixed
+UMask=0077
+Environment=GOMEMLIMIT=800MiB
+Environment=GOMAXPROCS=2
+CPUQuota=150%
+MemoryHigh=1G
+MemoryMax=1536M
+TasksMax=128
+LimitNOFILE=16384
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+CapabilityBoundingSet=
+ReadWritePaths=/var/lib/muit/receiver
+LogsDirectory=muit/receiver
+LogsDirectoryMode=0750
+StandardOutput=journal
+StandardError=journal
+LogNamespace=muit
+LogRateLimitIntervalSec=30s
+LogRateLimitBurst=1000
+
+[Install]
+WantedBy=multi-user.target

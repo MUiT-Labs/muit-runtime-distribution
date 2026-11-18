@@ -1,0 +1,13 @@
+# Only installation source, docs, templates, public keys and version metadata.
+*.key
+*.pem
+*.p12
+*.pfx
+*.db
+*.sqlite*
+*.zip
+*.tar.gz
+*.log
+__pycache__/
+.unverified-*/
+# Binary release assets go to Releases, never application source in this tree.

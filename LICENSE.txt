@@ -1,0 +1,22 @@
+MUiT Connection Runtime — original works distribution terms
+Copyright (c) 2026 MUiT-Labs. All rights reserved.
+
+Permission is granted to browse and download official MUiT installation
+materials and released binaries, install and run them on devices you own or
+are authorized to administer, and keep private backup copies for that use.
+This permission covers this published version; it does not grant access to
+the private application source or an open-source license to original works.
+Other rights, including sublicensing or redistribution of original works,
+are reserved unless separately granted by the rights holder.
+
+Third-party components are governed by their own accompanying licenses and
+applicable exceptions. These terms do not restrict rights granted by those
+licenses or rights required by applicable law. Retain their notices.
+
+The software and installation materials are provided as is, without warranty
+or a service/support commitment, to the extent permitted by applicable law.
+
+简体中文说明：允许浏览和下载官方安装材料/二进制，在自有或获授权设备上
+安装、运行并保存私有备份。应用源码仍为私有，不授予原创内容的开源许可；
+其他权利保留。第三方组件按随附原许可及例外执行，不受本条款额外限制。
+软件与安装材料按现状提供，适用法律允许范围内不附带保证或服务承诺。
