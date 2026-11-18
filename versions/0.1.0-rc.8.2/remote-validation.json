@@ -1,0 +1,197 @@
+{
+  "result": "PASS WITH RECORDED NETWORK LIMITATION",
+  "scope": "Public prerelease delivery and LOCAL package acceptance only; no real-device deployment",
+  "recorded_at": "2026-11-18T11:05:49.750796+00:00",
+  "release": "0.1.0-rc.8.2",
+  "release_url": "https://github.com/MUiT-Labs/muit-runtime-distribution/releases/tag/v0.1.0-rc.8.2",
+  "source_repository_private_verified": true,
+  "private_source_anonymous_http_status": 404,
+  "fixed_tag_installation_commit": "a5c46dbf12c06c1bf205caa18f4adc444a3375d0",
+  "fixed_tag_source_archive_files": 33,
+  "release_assets": 18,
+  "release_asset_bytes": 166868529,
+  "anonymous_download": {
+    "result": "PASS",
+    "client": "clean non-root Debian12 container, no account credentials, TLS1.3",
+    "origin": "official public GitHub REST asset URLs",
+    "signature_sha256_and_archive_inventory": "PASS",
+    "credentials_used": false,
+    "files": [
+      {
+        "file": "download.ps1",
+        "bytes": 288,
+        "sha256": "408c209e4dd56f1bd69d9815c8ea984c593393f7da30c3dd4a1d57d6469e202e",
+        "result": "PASS"
+      },
+      {
+        "file": "download.py",
+        "bytes": 13597,
+        "sha256": "ecfb7ea4c8f603f88c436f54476c7b6976120b12fb5aef18ea7d360259cce412",
+        "result": "PASS"
+      },
+      {
+        "file": "download.sh",
+        "bytes": 198,
+        "sha256": "39f73b8be118f3ce89890032e1dc14fa2fd033dae6ee949505a1004ef098bd9f",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-collector_0.1.0-rc.8.2_linux_amd64.tar.gz",
+        "bytes": 12564308,
+        "sha256": "fa246cd96df8380cb63aece60a50850b1fe7e6fab97322ae0b6cc71d4b2bd216",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-collector_0.1.0-rc.8.2_windows_amd64.zip",
+        "bytes": 13022279,
+        "sha256": "b1fd19f935594ecf8175637241699bd71bccc01cb51a0f5fc279fe9faf3a9f70",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-connection-runtime_0.1.0-rc.8.2_bundle.zip",
+        "bytes": 73468168,
+        "sha256": "8b2dabaa1a01333fd64007db7cf6827298bf7de1d7132d788cbef6fe84deb663",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-connection-runtime_0.1.0-rc.8.2_bundle.zip.sha256",
+        "bytes": 114,
+        "sha256": "e3ba07d2abb0d26a06399c45321be40ec4c40b3b2ca67058f9484b25c15a0545",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-install_linux_amd64",
+        "bytes": 15310696,
+        "sha256": "977d2770f30d909456d209c5ea0d7a3ac0878e5fd91a6a643d70df756f055c07",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-install_windows_amd64.exe",
+        "bytes": 15803392,
+        "sha256": "484616343ca1cec49356c4bc316683853c22bbd4868f5956cec5fb086c6497fc",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-receiver_0.1.0-rc.8.2_linux_amd64.tar.gz",
+        "bytes": 12242187,
+        "sha256": "9820b4fe36e1fa0e0c252942ecb6c56b04c3f1ccfd85e68e4cf360788ad42c0c",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-receiver_0.1.0-rc.8.2_windows_amd64.zip",
+        "bytes": 12664949,
+        "sha256": "4fbc2b12520ac570fc9b62b6d8d958cf372bf668bb10255e46806affa172ab24",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-tools_0.1.0-rc.8.2_linux_amd64.tar.gz",
+        "bytes": 5696139,
+        "sha256": "495dc897f20e28d347bb5a229446f64236a4b67a53ff8130469d3273953aa9a4",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-tools_0.1.0-rc.8.2_windows_amd64.zip",
+        "bytes": 5923662,
+        "sha256": "b2250a229801466c28e4e89dbf42923efde7e736096c5da96ddfc4ecd82480f4",
+        "result": "PASS"
+      },
+      {
+        "file": "muit-web_0.1.0-rc.8.2_any_any.tar.gz",
+        "bytes": 152975,
+        "sha256": "608986d4848517982edfb265acaaa65aded1eba7f36c0bdf795ea30af1a472fc",
+        "result": "PASS"
+      },
+      {
+        "file": "release.json",
+        "bytes": 3867,
+        "sha256": "b2e635f0a803aa4ef8263fed48502628a099af254639344080cdb6bfe6e9f5b7",
+        "result": "PASS"
+      },
+      {
+        "file": "release.sig",
+        "bytes": 64,
+        "sha256": "1db1b65800add5a6a856029fcc77010d806425f61efb89bee0f6c4e30282edee",
+        "result": "PASS"
+      },
+      {
+        "file": "release.sig.json",
+        "bytes": 215,
+        "sha256": "01f75afa981a9c6139d2d513e987ed2692e169676b8a422fab1b0c02bd68bd0a",
+        "result": "PASS"
+      },
+      {
+        "file": "SHA256SUMS",
+        "bytes": 1431,
+        "sha256": "7a51648ea68f25bf428af3f77e348f26c3084634287be8efdf338c7452067e94",
+        "result": "PASS"
+      }
+    ]
+  },
+  "anonymous_bundle": {
+    "bytes": 73468168,
+    "sha256": "8b2dabaa1a01333fd64007db7cf6827298bf7de1d7132d788cbef6fe84deb663",
+    "crc": "PASS",
+    "extracted_signed_release_files": 16
+  },
+  "installation_from_anonymous_bundle": {
+    "windows": {
+      "result": "PASS",
+      "checks": 6
+    },
+    "debian_nonroot": {
+      "result": "PASS",
+      "checks": 7
+    },
+    "scope": "actual empty Collector; disposable synthetic local identity/CA/upgrade fixtures; not market or system boot claims"
+  },
+  "earlier_identical_package_live_delivery": {
+    "source": "Binance Spot BTCUSDT@trade",
+    "events": 5,
+    "commits": 2,
+    "contiguous_cursor": 2
+  },
+  "private_engineering_ci": {
+    "head_sha": "8c74c9ca7da893bbf3d8ca5d09b165150372ea17",
+    "conclusion": "success"
+  },
+  "canonical_windows_route": {
+    "result": "FAIL",
+    "observed": "connection reset in this development network",
+    "credentials_used": false,
+    "downloaded_programs_executed": false
+  },
+  "interrupted_attempts": "automatic proxy and direct Windows API attempts retained; not counted as PASS",
+  "signing_key_id": "7644ee621f5fb4e9443c47bcb42ce7e9800826bbc015cc864667a8a9d84f759e",
+  "license": "Original works retain all rights; official packages/materials may be downloaded, installed and used free under LICENSE.txt. Third-party licenses/exceptions retained.",
+  "npm_audit": {
+    "production": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "full_development_chain": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 7,
+      "critical": 0,
+      "total": 7
+    }
+  },
+  "not_tested": [
+    "Real VPS/165H install and system boot",
+    "Active systemd protection/resource enforcement",
+    "NetBird/5Mbps WAN",
+    "72-hour soak",
+    "Windows Service and interactive Ctrl+C",
+    "ARM64/other platforms",
+    "Target-disk disaster recovery",
+    "Release signing key encrypted offsite backup/recovery",
+    "Earlier public release withdrawal/rollback rehearsal (first public version only)",
+    "GitHub platform immutable-release enforcement"
+  ],
+  "future_publication_automation": "Current publisher handles first release/exact draft recovery; general subsequent-version publication remains manual reviewed work."
+}

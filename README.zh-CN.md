@@ -9,6 +9,7 @@
 | 从这里开始 | 用途 |
 | --- | --- |
 | [验签网络下载](docs/NETWORK.zh-CN.md) | 确认外部公钥指纹，先验证下载器，再获取所需组件 |
+| [网络通路排查](docs/NETWORK-TROUBLESHOOTING.zh-CN.md) | 主站/代理失败、官方公开 API 备用入口、跨设备传包后复核 |
 | [安装与恢复](docs/INSTALL.zh-CN.md) | 身份、证书、配置、服务准备、健康检查、升级回退和完整恢复 |
 | [兼容矩阵](versions/0.1.0-rc.8.2/compatibility.json) | 平台基线、MFP/API与迁移兼容规则 |
 | [实际本地验证](versions/0.1.0-rc.8.2/validation.json) | 已执行检查及明确未测环境 |
@@ -23,3 +24,5 @@ Collector设备通常选择Collector + Tools + Web；接收设备选择Receiver 
 原始Ed25519公钥指纹：`7644ee621f5fb4e9443c47bcb42ce7e9800826bbc015cc864667a8a9d84f759e`。公钥SPKI SHA-256：`3cf6512c7065df33bb04deb30f8b4e565a7f37949754da705f296161b6965703`。首次使用须经独立可信渠道确认。Release签名覆盖组件、原生引导程序和下载脚本；发行身份与设备/mTLS身份分离。源码来源提交：`95aab60b7997e97593d9af2f31e44e6c67b9177f`。
 
 原创内容适用 [分发条款](LICENSE.txt)，各包内保留第三方许可证及适用运行库例外。公开下载不代表应用源码开源。
+
+发布后匿名下载和安装实测见 [远端交付验收](versions/0.1.0-rc.8.2/remote-validation.json)。
